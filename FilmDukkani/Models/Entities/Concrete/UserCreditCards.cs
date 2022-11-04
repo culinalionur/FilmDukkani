@@ -2,8 +2,8 @@
 {
     public class UserCreditCards
     {
-        public User User { get; set; }
-        public CreditCards Id { get; set; }
+        public User UserId { get; set; }
+        public CreditCards CardId { get; set; }
 
     }
 }

@@ -5,6 +5,7 @@ namespace FilmDukkani.Models.Entities.Concrete
 {
     public class Movie
     {
+        public int MovieId { get; set; }
         public string Name { get; set; }
         public string Director { get; set; }
         public string Summary { get; set; }
