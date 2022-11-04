@@ -33,7 +33,7 @@ namespace FilmDukkani.Models.DTOs
         public int CvcCode { get; set; }
 
         [Required]
-        [DataType(DataType.EmailAddress, ErrorMessage = "only allow email format")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "You must type a valid email")]
 
         public string MailAddress { get; set; }
         [Required]
