@@ -13,6 +13,10 @@ namespace FilmDukkani.Models.Entities.Concrete
         public string MailAddress { get; set; }
         public string Phone { get; set; }
         public string Password { get; set; }
+        public string CreditCardNumber { get; set; }
+        public DateTime CardExpiryDate { get; set; }
+        public int CvcCode { get; set; }
+        public CreditCards CardId { get; set; }
 
         public Membership MembershipId { get; set; }
 
